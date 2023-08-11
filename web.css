@@ -1,0 +1,55 @@
+.info{
+    text-align: center;
+    color:darkblue;
+}
+
+.little{
+    font-size:20px;
+}
+
+li{
+    color: purple;
+    font-size: 20px;
+}
+
+ul li{
+    margin:3px;
+    padding: 3px;
+}
+
+.inc{
+    font-size:20px;
+}
+.f{
+    font-size:10px;
+}
+
+.small{
+    font-size:15px;
+    color: darkblue;
+}
+
+.b{
+    font-size:60px;
+}
+
+.line{
+  border-bottom: 1px black solid;
+}
+
+.grid{
+    display:grid;
+    grid-template-areas: 
+    "grid1 grid1";
+    grid-gap:15px;
+}
+.grid1{
+    display: grid;
+    grid-row-start: 1;
+    grid-column-start:1;
+    grid-gap:3px;
+}
+
+.grid2 {
+    display: grid;
+}
